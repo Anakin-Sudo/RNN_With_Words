@@ -13,7 +13,7 @@ Together, these two tasks showcase both the **strengths** and **limits** of RNN-
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 RNN_LSTM_Text_Generation/
@@ -74,6 +74,13 @@ For deployment:
 ```bash
 pip install -r requirements_deployment.txt
 ```
+
+### ⚠️ Model Weights
+The `.pt` model files are stored with [Git LFS](https://git-lfs.com/).  
+Make sure you have Git LFS installed before cloning:
+```bash
+git lfs install
+git clone https://github.com/your-username/RNN_LSTM_Text_Generation.git
 
 ### 3. Run the API
 ```bash
