@@ -1,0 +1,5 @@
+torch
+fastapi
+pydantic
+datasets
+numpy<2
